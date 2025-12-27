@@ -1,70 +1,68 @@
-### Prerequisites
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- NPM and Node.js installed
-- MongoDB cluster created and added to the system's environment variable
+## Available Scripts
 
-### Installing
+In the project directory, you can run:
 
-Steps for Installing NPM modules on both client and server folders
+### `npm start`
 
-Execute these commands from the project directory
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```
-cd client && npm install
-```
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-```
-cd server && npm install
-```
+### `npm test`
 
-### Running the app
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Open a terminal on server directory
+### `npm run build`
 
-```
-npm start:dev
-```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-and open another terminal on client directory
-```
-npm start
-```
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Access the web app on your system at http://localhost:3000/
+### `npm run eject`
 
-<hr>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Screenshots
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<p align="center">
-  <img src="./Screenshots/1.jpeg" alt="image"/>
-</p>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-<p align="center">
-  <img src="./Screenshots/2.jpeg" alt="image"/>
-</p>
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-<p align="center">
-  <img src="./Screenshots/3.jpeg" alt="image"/>
-</p>
+## Learn More
 
-<p align="center">
-  <img src="./Screenshots/4.jpeg" alt="image"/>
-</p>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<p align="center">
-  <img src="./Screenshots/5.jpeg" alt="image"/>
-</p>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-<p align="center">
-  <img src="./Screenshots/6.jpeg" alt="image"/>
-</p>
+### Code Splitting
 
-<hr>
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-As organs are needed ASAP for operations, time is the most crucial aspect. However, the existing method to request organs from procurement centre/ transplant centres is completely manual (manual data entry, manual communication via faxes, mails, phone calls) and thus is obviously error prone and time consuming. Therefore to solve this grave issue, 'OrganEase' is proposed. 
+### Analyzing the Bundle Size
 
-The website makes the tedious manual task of categorizing different organs and making entries for each, mere clicks away. In a particular region, say n number of procurement centres and/or transplant centres exist. All of them can display the organs stored in their hypothermic storages along with their details at one time (this completely solvesthe time-consuming problem of individually calling of procurement centres one by one which is done presently). 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-Hospitals can request organs of suitable compatibility (Blood Group, etc) via the portal itself and make a payment which serves as a token of confirmation for the transfer procedure. Thereafter, the procurement centre has the option to confirm the request from their side.
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
